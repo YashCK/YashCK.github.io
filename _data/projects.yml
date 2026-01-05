@@ -1,6 +1,6 @@
 cyclotron-gpu-performance-model:
   name: Cyclotron (GPU Performance Model)
-  excerpt: "To be written."
+  excerpt: "Cyclotron is a Rust-based functional simulator for the Radiance GPU architecture at UC Berkeley. This project extends it with a timing layer to be a cycle-accurate performance model. We wrap around the existing core simulator using chained, parametrized timing queues to model shared resources like global and shared memory. This allows us to capture realistic latency, bandwidth, and backpressure without changing the underlying functional execution."
   stack: [Rust, C++, RISC-V]
   category: Research
 
