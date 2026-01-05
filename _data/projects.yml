@@ -4,7 +4,7 @@ cyclotron-gpu-performance-model:
   stack: [Rust, C++, RISC-V]
   category: Research
 
-neural-signal-processing-artifact-rejection:
+artifact-rejection-neural-signals:
   name: Artifact Rejection for Neural Signals
   excerpt: "To be written."
   stack: [Python]
@@ -29,15 +29,15 @@ usb2-blind-data-recovery:
   category: Hardware
 
 wsc-noc-dvfs:
-  name: Priority-Aware NoC DVFS under Power Caps
+  name: Priority-Aware NoC DVFS for WSCs
   excerpt: "To be written."
-  stack: []
+  stack: [C++, Python, Booksim2, Sniper]
   category: Hardware
 
 cpu-151:
   name: 3-Stage RISC-V Processor
   excerpt: "To be written."
-  stack: []
+  stack: [Verilog, SystemVerilog, Synopsys VCS]
   category: Hardware
 
 microfabrication-wafer:
@@ -49,13 +49,13 @@ microfabrication-wafer:
 pendulum-balancing:
   name: Inverted Pendulum Balancing
   excerpt: "To be written."
-  stack: []
+  stack: [MATLAB, Simulink]
   category: Hardware
 
 magnetic-levitation:
   name: Magnetic Levitation
   excerpt: "To be written."
-  stack: []
+  stack: [MATLAB, Simulink]
   category: Hardware
 
 61cpu:
