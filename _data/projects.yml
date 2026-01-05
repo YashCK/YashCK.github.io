@@ -1,35 +1,125 @@
+cyclotron-gpu-performance-model:
+  name: Cyclotron (GPU Performance Model)
+  excerpt: "To be written."
+  stack: [Rust, C++, RISC-V]
+  category: Research
+
+neural-signal-processing-artifact-rejection:
+  name: Artifact Rejection for Neural Signals
+  excerpt: "To be written."
+  stack: [Python]
+  category: Research
+
+bringup-16nm-cmos-chip:
+  name: Bringup of a Intel 16nm CMOS SoC
+  excerpt: "To be written."
+  stack: [FPGA, C]
+  category: Hardware
+
+tapeout-16nm-cmos-chip:
+  name: Tapeout of a Intel 16nm CMOS SoC
+  excerpt: "To be written."
+  stack: [Chisel, Scala, C, "Cadence (Genus, Innovus, Virtuoso)", Synopsys (VCS, IC Validator), HAMMER, TCL]
+  category: Hardware
+
+usb2-blind-data-recovery:
+  name: USB2.0 Blind Clock and Data Recovery
+  excerpt: "To be written."
+  stack: [Chisel, C, SkyWater SKY130 PDK]
+  category: Hardware
+
+wsc-noc-dvfs:
+  name: Priority-Aware NoC DVFS under Power Caps
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+cpu-151:
+  name: 3-Stage RISC-V Processor
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+microfabrication-wafer:
+  name: Microfabrication of a Wafer
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+pendulum-balancing:
+  name: Inverted Pendulum Balancing
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+magnetic-levitation:
+  name: Magnetic Levitation
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+61cpu:
+  name: 61CPU
+  excerpt: "To be written."
+  stack: []
+  category: Hardware
+
+pintos:
+  name: PintOS
+  excerpt: "To be written."
+  stack: []
+  category: Software
+
+video-streaming-compression:
+  name: Video and Streaming Compression
+  excerpt: "To be written."
+  stack: []
+  category: Software
+
+chip8:
+  name: Chip8 Emulator
+  excerpt: "To be written."
+  stack: []
+  category: Software
+
 math-library:
   name: Math Library
   excerpt: "A mathematical library for scientific computing in Java, with a focus on Linear Algebra and Abstract Algebra. Comprehensive support for numerical algorithms over abstract algebraic sturctues (Groups, Rings, Fields)."
   stack: ["Java, JUnit"]
+  category: Software
 
 pandasurf:
   name: PandaSurf
   excerpt: "A full-fledged web browser that supports several URI schemes, Search, Hyperlinks, Cookies, Multithreading, and a graphical interface."
   stack: ["Python", "HTML", "CSS", "Javascript", "sdl2", "skia"]
+  category: Software
 
 rl-mario-bros:
   name: RL Agent to play Mario Bros
   excerpt: "To be written"
   stack: ["Python", "Pytorch"]
-
-byow:
-  name: BYOW
-  excerpt: "A 2D tile-based game world engine. Entering different seeds generates random explorable worlds, which the player must traverse. The player faces off against an enemy chasing them and must collect enough coins to get to the next stage."
-  stack: ["Java"]
-
-scheme-interpreter:
-  name: Scheme Interpreter
-  excerpt: "An interpreter for a subset of the scheme language. Able to evaluate various expressions and call built-in procedures. Support logical special forms and tail call optimization."
-  stack: ["Python, Scheme"]
+  category: Software
 
 gitlite:
   name: Gitlite
   excerpt: "Implement a version-control system mimicing Git from scratch. Users can save the contents of entire directories in commits, restore different versions, view history, branch, and merge."
   stack: ["Java"]
+  category: Software
+
+byow:
+  name: BYOW (Build Your Own World)
+  excerpt: "A 2D tile-based game world engine. Entering different seeds generates random explorable worlds, which the player must traverse. The player faces off against an enemy chasing them and must collect enough coins to get to the next stage."
+  stack: ["Java"]
+  category: Software/Systems
 
 sixteen-robot:
   name: S1XT33N
   excerpt: "Construct a robot car that listens to voice commands and then drives on the command’s pre-defined path."
   stack: ["Arduino, Python"]
+  category: Software
 
+scheme-interpreter:
+  name: Scheme Interpreter
+  excerpt: "An interpreter for a subset of the scheme language. Able to evaluate various expressions and call built-in procedures. Support logical special forms and tail call optimization."
+  stack: ["Python, Scheme"]
+  category: Software
