@@ -5,7 +5,7 @@ hasThumbnail: false
 
 ## Background
 
-This project was done as part of the EECS 251B class as a final project. Half the class worked on a USB 2.0 chip while the other half worked on an Ethernet chip. I was on the Blind Data Recovery (BDR) team on the USB 2.0 chip.
+This project was done with Tushar Goyal as part of the EECS 251B class as a final project. Half the class worked on a USB 2.0 chip while the other half worked on an Ethernet chip. I was on the Blind Data Recovery (BDR) team on the USB 2.0 chip.
 
 In USB 2.0, the receiver does not get a forwarded clock. Only the data signal is transmitted - so the RX must recover timing from data transitions. This is especially challenging under clock drift, jitter, and long runs without transitions (consecutive identical digits), which reduce timing margin.
 
