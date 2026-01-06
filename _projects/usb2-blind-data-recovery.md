@@ -84,4 +84,4 @@ We achieved
 - **Lock time:** feed-forward recovery starts immediately and the AD-FIFO has a warm-up latency of 12 cycles
 - **Area (SKY130 synthesis):** total ≈ 9,969 µm^2 (AD-FIFO dominates)
 
-Here is a paper we wrote for our final report: [BDR Final Report](/assets/pdfs/bdr_final_report.pdf). 
+Here is a paper we wrote for our final report: [BDR Final Report](/assets/pdfs/BDR_Final_Report.pdf). 
