@@ -24,7 +24,7 @@ tapeout-16nm-cmos-chip:
 
 usb2-blind-data-recovery:
   name: USB2.0 Blind Clock and Data Recovery
-  excerpt: "To be written."
+  excerpt: "I built a digital blind clock and data recovery (CDR) block for a USB 2.0 Hi-Speed (480 Mb/s) receiver, in Chisel which was targeted for the SKY130 process. The design uses 5x oversampling and a center-picking phase selection strategy to recover bits quickly without a PLL/DLL, and corrects for jitter using an Add-Drop FIFO."
   stack: [Chisel, C, SkyWater SKY130 PDK]
   category: Hardware
 
