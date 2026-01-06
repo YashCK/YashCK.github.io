@@ -6,7 +6,7 @@ cyclotron-gpu-performance-model:
 
 artifact-rejection-neural-signals:
   name: Artifact Rejection for Neural Signals
-  excerpt: "The project aims to help create a closed-loop neuromodulation system that epidurally stimulates the brain. By analyzing cognitive/behavioral changes and identifying which forms of stimulation are effective we could improve therapeutic outcomes. However when stimulation is applied, significant artifacts occur which prevent us from being able to create such a system currently. This research aims to investigate the removal of these artifacts from recorded signals along with any other noise contaminating the data."
+  excerpt: "The project aims to help create a closed-loop neuromodulation system that epidurally stimulates the brain. By analyzing cognitive/behavioral changes and identifying which forms of stimulation are effective we could improve therapeutic outcomes. However when stimulation is applied, significant artifacts occur which corrupt the neural data. This research aims to investigate the removal of these artifacts from recorded signals along with any other noise contaminating the data."
   stack: [Python]
   category: Research
 
@@ -18,7 +18,7 @@ bringup-16nm-cmos-chip:
 
 tapeout-16nm-cmos-chip:
   name: Tapeout of a Intel 16nm CMOS SoC
-  excerpt: "To be written."
+  excerpt: "I taped out two 16nm CMOS multi-processor RISC-V SoCs (one ML and one DSP focused) as part of UC Berkeley’s Spring 25 EE 194 Tapeout class. I was part of the Integration team and my work centered on top-level IP integration, physical design, and the Network-on-Chip (NoC). I built and benchmarked custom NoC topologies for the two chips, by extending the open-source Constellation framework, which was later also pushed upstream."
   stack: [Chisel, Scala, C, "Cadence (Genus, Innovus, Virtuoso)", Synopsys (VCS, IC Validator), HAMMER, TCL]
   category: Hardware
 
