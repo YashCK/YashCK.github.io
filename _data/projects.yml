@@ -30,7 +30,7 @@ usb2-blind-data-recovery:
 
 wsc-noc-dvfs:
   name: Priority-Aware NoC DVFS for WSCs
-  excerpt: "To be written."
+  excerpt: "This project builds a priority-aware DVFS controller for a Network-on-Chip (NoC) to keep latency critical (control) traffic responsive while enforcing hard power caps in the context of Warehouse-Scale-Computers. I extend Sniper and Booksim 2.0 for trace-driven simulation and compare class-aware DVFS controllers to a baseline uniform throttling strategy. I show that class class-aware DVFS lowers control P99 tail latency under the same power budget."
   stack: [C++, Python, Booksim2, Sniper]
   category: Hardware
 
