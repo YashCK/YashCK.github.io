@@ -54,7 +54,7 @@ pendulum-balancing:
 
 magnetic-levitation:
   name: Magnetic Levitation
-  excerpt: "To be written."
+  excerpt: "Modeled an unstable hovering plant by experimentally identifying a linearized transfer function around an equilibrium height, then designed an analog compensator to stabilize it. Using a photoresistor position sensor, an op-amp controller chain, and a current amplifier driving an electromagnet, I tuned offsets and loop dynamics to successfully levitate a steel ball."
   stack: [MATLAB, Simulink]
   category: Hardware
 

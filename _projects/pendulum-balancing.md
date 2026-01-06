@@ -1,5 +1,6 @@
 ---
 hasThumbnail: false
+math: true
 
 ---
 
@@ -13,21 +14,21 @@ Because the lab focuses on small deviations about upright, the plant is lineariz
 - **Measured outputs:** cart position **x** and pendulum angle *θ* (encoders).
 - **Control input:** motor voltage **V** (force on cart through motor dynamics).
 - **State definition:**
-  \[
+  $$
   \mathbf{x} = \begin{bmatrix} x & \dot{x} & \theta & \dot{\theta} \end{bmatrix}^T
-  \]
+  $$
 
 
 ---
 
 ## Modeling (high level)
 Under the small-angle approximation, the linearized equations of motion can be written as:
-\[
+$$
 (M+m)\ddot{x} + mL_p\ddot{\theta} = F_a
-\]
-\[
+$$
+$$
 mL_p\ddot{x} + \frac{4mL_p^2}{3}\ddot{\theta} - mgL_p\theta = 0
-\]
+$$
 
 These dynamics are combined with the motor dynamics (force as a function of motor voltage and cart motion) to produce a state-space model (A, B, C, D) with outputs y = [x, θ]^T.
 
@@ -40,23 +41,23 @@ Design and implement a full-state feedback controller that stabilizes the uprigh
 
 ### Control law (concept)
 For design, we assume the full state is available:
-\[
+$$
 u = -K\,\mathbf{x}
-\]
+$$
 
 The gain K = [k1 k2 k3 k4] is chosen so the closed-loop eigenvalues of (A − BK) match desired pole locations . In our implementation, we solved for K in MATLAB and verified it via pole placement.
 
 ### Reference tracking structure
 To track position commands, we used:
-\[
+$$
 u = K(r - \mathbf{x})
-\]
+$$
 so that the reference r has the same dimension as the state.
 
 For experiments, we used a sinusoidal cart position reference of the form:
-\[
+$$
 r = [M\sin(\omega t),\ 0,\ 0,\ 0]^T
-\]
+$$
 
 ### Observations/Limitations
 We noticed that numerical differentiation amplified noise, producing spiky, low-quality velocity estimates. This noise propagated into the control input and could manifest as jittery motion and audible high-frequency behavior. We also saw persistent small oscillations about equilibrium due to modeling linearization, sensor noise, and derivative-based state estimates.
@@ -67,9 +68,9 @@ We improved the controller by replacing derivative blocks with a state estimator
 
 ## Observer equations (concept)
 A Luenberger observer has the form:
-\[
+$$
 \dot{\hat{\mathbf{x}}} = A\hat{\mathbf{x}} + Bu + L(y - \hat{y})
-\]
+$$
 where y = Cx and ŷ = Cx̂.
 
 Intuitively:
@@ -77,9 +78,9 @@ Intuitively:
 - **Corrector:** L(y − ŷ) pulls the estimate toward the measured outputs
 
 The controller then uses the estimated state:
-\[
+$$
 u(t) = K\big(r(t) - \hat{\mathbf{x}}(t)\big)
-\]
+$$
 
 ## Choosing observer poles (design idea)
 The observer gain L is selected so that (A − LC) is stable, and typically faster than the closed-loop plant so that the estimate converges quickly. We used MATLAB pole placement to compute L for a desired set of observer poles (provided by the lab).
