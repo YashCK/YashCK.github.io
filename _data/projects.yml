@@ -6,7 +6,7 @@ cyclotron-gpu-performance-model:
 
 artifact-rejection-neural-signals:
   name: Artifact Rejection for Neural Signals
-  excerpt: "To be written."
+  excerpt: "The overarching goal of this project is to aid in creating a closed-loop neuromodulation system that epidurally stimulates the brain. By delivering specific electric fields through electrodes, we can observe changes in cognitive or behavioral functions. By analyzing these changes and identifying which forms of stimulation are effective we may able to improve therapeutic outcomes. However when stimulation is applied, significant artifacts occur which prevent us from being able to create such a system currently. This research aims to investigate the removal of these artifacts from recorded signals along with any other noise contaminating the data."
   stack: [Python]
   category: Research
 
