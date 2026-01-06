@@ -36,7 +36,7 @@ wsc-noc-dvfs:
 
 cpu-151:
   name: 3-Stage RISC-V Processor
-  excerpt: "To be written."
+  excerpt: "This project is a 3-stage, in-order RISC-V CPU in Verilog (IF → Decode/Execute → Mem/Writeback) targeting the Sky130flow. It includes a direct-mapped instruction cache + data cache and a stall/flush scheme for hazards and cache misses. It also implements forwarding paths to eliminate common data hazards and added system features like CSR writes. The design was taken through synthesis and place-and-route, reporting post-PAR timing and PPA."
   stack: [Verilog, SystemVerilog, Synopsys VCS]
   category: Hardware
 
