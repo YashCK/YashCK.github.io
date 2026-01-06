@@ -49,13 +49,13 @@ microfabrication-wafer:
 pendulum-balancing:
   name: Inverted Pendulum Balancing
   excerpt: "Built a controller that balances an inverted pendulum upright on a moving cart. I modeled the system, tuned the controller, ran it on real hardware, and tested stability and tracking by pushing the pendulum and commanding the cart to follow position references."
-  stack: [MATLAB, Simulink]
+  stack: [MATLAB, Simulink, Control]
   category: Hardware
 
 magnetic-levitation:
   name: Magnetic Levitation
   excerpt: "Modeled an unstable hovering plant by experimentally identifying a linearized transfer function around an equilibrium height, then designed an analog compensator to stabilize it. Using a photoresistor position sensor, an op-amp controller chain, and a current amplifier driving an electromagnet, I tuned offsets and loop dynamics to successfully levitate a steel ball."
-  stack: [MATLAB, Simulink]
+  stack: [MATLAB, Simulink Control]
   category: Hardware
 
 61cpu:
