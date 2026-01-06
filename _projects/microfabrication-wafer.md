@@ -22,7 +22,7 @@ We started with a 3 inch <100> p-type Si Substrate. The mask levels we used in t
   </tr>
   <tr>
     <td>1</td>
-    <td>Field oxidation *(TA/staff)*</td>
+    <td>Field oxidation</td>
     <td>Grow thick isolation oxide</td>
     <td>Field oxide on wafer</td>
   </tr>

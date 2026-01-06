@@ -43,12 +43,12 @@ cpu-151:
 microfabrication-wafer:
   name: Microfabrication of a Wafer
   excerpt: "This was a cleanroom micofabrication lab project, where I fabricated a MOS test-chip on a 3-inch <100> p-type silicon wafer using a multi-mask process (ACTV, POLY, CONT, METL). I went through the steps of photolithography, wet etching, thermal oxidation, dopant diffusion, and aluminum metallization/patterning. Afterwards I electrically characterized the resulting resistors, MOS capacitors, diodes, MOSFETs, and an inverter using probe-station measurements."
-  stack: []
+  stack: [Al, Si, O, P, H, N, F]
   category: Hardware
 
 pendulum-balancing:
   name: Inverted Pendulum Balancing
-  excerpt: "To be written."
+  excerpt: "Built a controller that balances an inverted pendulum upright on a moving cart. I modeled the system, tuned the controller, ran it on real hardware, and tested stability and tracking by pushing the pendulum and commanding the cart to follow position references."
   stack: [MATLAB, Simulink]
   category: Hardware
 
