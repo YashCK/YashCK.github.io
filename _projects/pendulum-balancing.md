@@ -10,6 +10,13 @@ The inverted pendulum is a classic control problem: the upright equilibrium is o
 
 Because the lab focuses on small deviations about upright, the plant is linearized using the small-angle approximation (sinθ ≈ θ, cosθ ≈ 1).
 
+<video class="rounded-xl" style="width: 50%; margin: 0 auto; display: block;" controls playsinline preload="metadata">
+  <source src="{{ site.baseurl }}../assets/videos/pendulum.MOV" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
+<br>
+
 ## System overview
 - **Measured outputs:** cart position **x** and pendulum angle *θ* (encoders).
 - **Control input:** motor voltage **V** (force on cart through motor dynamics).

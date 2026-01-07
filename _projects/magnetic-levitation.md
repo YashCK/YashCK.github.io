@@ -9,6 +9,13 @@ Magnetic levitation is a classic unstable plant problem: the electromagnetic for
 
 This project involved identifying a linearized plant model around a chosen equilibrium height, designing a lead/lag style compensator, implmenting the full controller on a breadboard, and successfully levitating the ball by calibrating offsets, tuning, and debuggin the full loop. 
 
+<video class="w-full rounded-xl" controls playsinline preload="metadata">
+  <source src="{{ site.baseurl }}../assets/videos/maglev.MOV" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
+<br>
+
 ## High-Level Model and Control Approach
 
 ### Nonlinear dynamics and measurement
