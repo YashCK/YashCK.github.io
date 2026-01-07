@@ -60,7 +60,7 @@ magnetic-levitation:
 
 61cpu:
   name: 61CPU
-  excerpt: "To be written."
+  excerpt: "Built a pipelined RISC-V CPU in Logisim which implemented core datapath blocks: ALU, 32-register regfile, and an immediate generator. It extended the CPU to support RISC-V instructions (ALU ops, branches, loads/stores, and jumps). Added basic pipeline hazard handling by flushing wrong-path instructions on taken branches/jumps using a no-op."
   stack: []
   category: Hardware
 
