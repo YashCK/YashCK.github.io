@@ -61,25 +61,25 @@ magnetic-levitation:
 61cpu:
   name: 61CPU
   excerpt: "Built a pipelined RISC-V CPU in Logisim which implemented core datapath blocks: ALU, 32-register regfile, and an immediate generator. It extended the CPU to support RISC-V instructions (ALU ops, branches, loads/stores, and jumps). Added basic pipeline hazard handling by flushing wrong-path instructions on taken branches/jumps using a no-op."
-  stack: []
+  stack: [Logism]
   category: Hardware
 
 pintos:
   name: PintOS
-  excerpt: "To be written."
-  stack: []
+  excerpt: "Extended the PintOS educational OS by implementing core kernel features spanning user program support, system calls, file I/O, floating-point context switching, and thread scheduling. Some highlights include user-memory validation for syscalls, process creation/exec/wait semantics, a full file-descriptor interface, saving/restoring FPU state across context switches, and kernel-level scheduling improvements (efficient sleeping, strict priority scheduling, and priority donation)."
+  stack: [C]
   category: Software
 
 video-streaming-compression:
   name: Video and Streaming Compression
   excerpt: "To be written."
-  stack: []
+  stack: [Python, Raspberry Pi]
   category: Software
 
 chip8:
   name: Chip8 Emulator
   excerpt: "To be written."
-  stack: []
+  stack: [C++]
   category: Software
 
 math-library:
