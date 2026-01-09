@@ -71,9 +71,9 @@ pintos:
   category: Software
 
 video-streaming-compression:
-  name: Video and Streaming Compression
+  name: APNG Video over APRS with Compression
   excerpt: "I built and evaluated multiple compression algorithms to transmit animated PNG (APNG) videos over a very-low bandwidth radio link (APRS/AX.25 via Direwolf on a Raspberry Pi), then reconstruct and decompress it server-side. I explored both lossless and lossy methods (LZW, DEFLATE/LZ77 + Huffman, JPEG2000-style wavelets, and SPIHT), and primarly focused on implementing SPIHT-based wavelet compression for color video frames."
-  stack: [Python, Raspberry Pi]
+  stack: [Python, Raspberry Pi, Digital Signal Processing]
   category: Software
 
 chip8:
